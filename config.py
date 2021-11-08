@@ -8,7 +8,7 @@ class Config(object):
     TESTING = False
     CSRF_ENABLED = True
     SECRET_KEY = 'this-really-needs-to-be-changed'
-    SQLALCHEMY_DATABASE_URI = "postgresql://cloud2:bullrequest@34.141.13.104/flightradardb"
+    SQLALCHEMY_DATABASE_URI = "postgresql://cloud2:bullrequest@10.1.112.4/flightradardb"
 
 
 class ProductionConfig(Config):
